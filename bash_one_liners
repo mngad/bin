@@ -1,0 +1,1 @@
+for i in `ls | grep pc1_-2 | grep sta`; do cat $i; done; | less
