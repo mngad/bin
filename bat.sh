@@ -1,1 +1,1 @@
-watch -n 30 -t sudo /home/fraun/bin/stat.sh
+watch -n 5 -t /home/fraun/bin/stat.sh

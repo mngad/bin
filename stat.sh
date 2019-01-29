@@ -10,3 +10,6 @@ echo -n ':'
 echo $(($MINS * 60)) | cut -c 1-2
 echo -n 'date: '
 date | cut -c 5-16;
+echo -n 'Music: '
+mpc | head -n 2 | tail -n 1 | cut -d ' ' -f 1 
+mpc | head -n 1
